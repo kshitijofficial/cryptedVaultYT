@@ -19,35 +19,72 @@ This project implements a crypted IPFS vault using the MERN (MongoDB, Express.js
 - **Blockchain**: Used for authentication and storing file metadata securely.
 
 ### Setup Instructions
-1. Step 1: Clone the repository: https://github.com/kshitijofficial/cryptedVaultYT.git
-2. Step 2: Setup Server Environment Variables
-Navigate to the server directory:
+Certainly! Here's the updated README file with the additional link:
+
+---
+
+## CryptedVaultYT Setup Instructions
+
+### Step 1: Clone the Repository
+
+Clone the repository from GitHub using the following command:
+
+```bash
+git clone https://github.com/kshitijofficial/cryptedVaultYT.git
+```
+
+### Step 2: Setup Server Environment Variables
+
+Navigate to the `server` directory:
+
+```bash
 cd cryptedVaultYT/server
+```
 
-Create a new .env file in the server directory with the following entries. These environment variables will be used in config/serverConfig.js.
+Create a new `.env` file in the `server` directory with the following entries. These environment variables will be used in `config/serverConfig.js`.
 
+```plaintext
 MONGODB_URL=your_mongodb_url
 PORT=3000
 JWT_SECRETKEY=your_jwt_secret_key
 PINATA_APIKEY=your_pinata_api_key
 PINATA_SECRETKEY=your_pinata_secret_key
+```
 
-Replace your_mongodb_url, your_jwt_secret_key, your_pinata_api_key, and your_pinata_secret_key with your actual MongoDB URL, JWT secret key, Pinata API key, and Pinata secret key respectively.
+Replace `your_mongodb_url`, `your_jwt_secret_key`, `your_pinata_api_key`, and `your_pinata_secret_key` with your actual MongoDB URL, JWT secret key, Pinata API key, and Pinata secret key respectively.
 
-3. Step 3: Start the Server
+### Step 3: Start the Server
+
 Run the server using npm:
+
+```bash
 npm start
+```
 
-Step 4: Setup Client Environment
+### Step 4: Setup Client Environment
+
+Navigate to the `client` directory:
+
+```bash
 cd client
+```
 
-Step 5: Deploy your smart contract (ipfsHashStorage.sol) and change the contract address in utils/connectWallet.js
+### Step 5: Start the Client
 
-Step 6: Start the Client
 Run the client using npm:
-npm run dev
 
-Additional Link
-You can also visit sepolia-faucet.pk910.de for sepolia faucet.
+```bash
+npm run dev
+```
+
+Now, you should be able to access the CryptedVaultYT application locally.
+
+### Additional Link
+
+You can also visit [sepolia-faucet.pk910.de](https://sepolia-faucet.pk910.de/) for more sepolia testnet ether.
+
+---
+
+These instructions will guide users through setting up the project locally on their machines, along with providing an additional link for reference.
 
 
