@@ -85,6 +85,6 @@ You can also visit [sepolia-faucet.pk910.de](https://sepolia-faucet.pk910.de/) f
 
 ---
 
-For any queries contact me at twitter(https://twitter.com/KshitijWeb3)
+For any queries contact me at [twitter](https://twitter.com/KshitijWeb3)
 
 
