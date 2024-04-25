@@ -18,11 +18,6 @@ This project implements a crypted IPFS vault using the MERN (MongoDB, Express.js
 - **IPFS (InterPlanetary File System)**: Peer-to-peer network for storing and sharing files, used for storing encrypted files.
 - **Blockchain**: Used for authentication and storing file metadata securely.
 
-### Setup Instructions
-Certainly! Here's the updated README file with the additional link:
-
----
-
 ## CryptedVaultYT Setup Instructions
 
 ### Step 1: Clone the Repository
