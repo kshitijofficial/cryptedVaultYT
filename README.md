@@ -85,6 +85,6 @@ You can also visit [sepolia-faucet.pk910.de](https://sepolia-faucet.pk910.de/) f
 
 ---
 
-These instructions will guide users through setting up the project locally on their machines, along with providing an additional link for reference.
+For any queries contact me at twitter(https://twitter.com/KshitijWeb3)
 
 
